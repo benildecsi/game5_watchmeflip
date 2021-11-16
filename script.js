@@ -83,7 +83,7 @@ class FlipFlap {
     }
     victory() {
         clearInterval(this.countDown);
-        document.getElementById('congratulations-message').innerHTML = "Congratulations! You finish the game with " + this.timeRemaining + " seconds left."
+        document.getElementById('congratulations-message').innerHTML = "Congratulations! You finish the game within " + this.timeRemaining + " seconds left."
         document.getElementById('victory-text').classList.add('visible');
         this.hideCards();
     }
